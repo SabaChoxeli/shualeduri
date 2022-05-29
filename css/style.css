@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.bottom-border {
+  margin-bottom: 30px;
+}
+
+header {
+  border-bottom: 1px solid #e0dfdf;
+}
+
+header div {
+  margin-left: 40px;
+}
+
+.search-bar {
+  background-color: #f8f8f8;
+  width: 446px;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+
+.searchbar-div {
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
+}
+
+.search-bar input {
+  font-size: 14px;
+  border: transparent;
+  background-color: #f8f8f8;
+  margin-top: 18px;
+  margin-bottom: 19px;
+}
+
+.search-icon {
+  width: 24px;
+}
+
+header span {
+  color: #ff2288;
+  font-size: 14px;
+  width: 56px;
+}
+
+.header-mail {
+  width: 24px;
+  margin-left: 35px;
+  position: relative;
+}
+
+.left-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #ff2288;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 106px;
+  margin-top: -13px;
+}
+
+.header-bell {
+  width: 24px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.right-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #ff2288;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -13px;
+  margin-left: 158px;
+}
+
+.header-pic {
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  margin-left: 30px;
+}
+
+.upload {
+  margin-left: 30px;
+  background-color: #ff2288;
+  width: 129px;
+  height: 56px;
+  border-radius: 12px;
+  padding-top: 17px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 36px;
+}
+
+.upload-text {
+  color: #ffffff;
+}
+
+.right-header {
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .upload {
+    display: none;
+  }
+}
+
+nav {
+  background-color: #222222;
+  width: 319px;
+  height: 1080px;
+}
+
+nav h2 {
+  font-size: 24px;
+  color: #ffffff;
+}
