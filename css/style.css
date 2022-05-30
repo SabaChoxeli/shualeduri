@@ -14,6 +14,12 @@ ol {
   list-style: none;
 }
 
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .d-flex {
   display: flex;
 }
@@ -24,7 +30,12 @@ ol {
   background-color: #222222;
 }
 
-.sidebar-header {
+.design-h2 {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.aside-header {
   align-items: center;
   margin-top: 42px;
   margin-left: 30px;
@@ -36,8 +47,96 @@ ol {
   width: 146px;
 }
 
+.aside-navbar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 100px;
+}
+
+.aside-item {
+  width: 259px;
+  height: 60px;
+  background-color: transparent;
+  border-radius: 12px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.aside-item:hover {
+  background-color: #ff2288;
+}
+
+.aside-navbar-logo {
+  margin-right: 15px;
+}
+
+.aside-lower {
+  margin-left: 30px;
+  margin-bottom: 100px;
+}
+
+.aside-navbar span {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.first-pic {
+  margin-top: 30px;
+}
+
+.aside-profile {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 15px;
+}
+
+.following-list span {
+  margin-top: 10px;
+  margin-left: 21px;
+}
+
+.aside-lower span {
+  color: #ffffff;
+}
+
+.following {
+  width: 66px;
+  height: 16px;
+  font-size: 12px;
+}
+
+.following-people {
+  align-items: center;
+}
+
+.aside-lower div span {
+  font-size: 16px;
+}
+
+.last-pic {
+  margin-bottom: 4px;
+}
+
+.load-more {
+  font-size: 14px;
+  width: 94px;
+  height: 19px;
+}
+
+.main {
+  margin-left: 25px;
+}
+
 header {
   justify-content: space-between;
+}
+
+.border-bottom {
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .searchbar {
@@ -45,7 +144,6 @@ header {
   height: 56px;
   background-color: #f8f8f8;
   border-radius: 12px;
-  margin-left: 25px;
   margin-top: 30px;
   align-items: center;
   justify-content: space-between;
@@ -69,6 +167,7 @@ header {
 .right-header span {
   color: #ff2288;
   font-size: 14px;
+  width: 56px;
 }
 
 .mail-logo {
@@ -115,4 +214,15 @@ header {
   padding-bottom: 20px;
   color: #ffffff;
   border-radius: 12px;
+}
+
+@media (max-width: 1024px) {
+  .aside {
+    display: none;
+  }
+}
+
+.mid-section {
+  max-width: 1231px;
+  width: 100%;
 }
