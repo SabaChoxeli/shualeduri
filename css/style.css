@@ -26,7 +26,7 @@ ol {
 
 .aside {
   width: 319px;
-  height: 1080px;
+  height: 1150px;
   background-color: #222222;
 }
 
@@ -161,7 +161,7 @@ header {
   margin-top: 30px;
 }
 
-.right-header span {
+.go-pro span {
   color: #ff2288;
   font-size: 14px;
   width: 56px;
@@ -220,7 +220,7 @@ header {
 }
 
 .mid-section {
-  max-width: 1231px;
+  max-width: 1175px;
   width: 100%;
   margin: 40px auto;
 }
@@ -232,7 +232,7 @@ header {
 .nav-item {
   color: #222222;
   font-size: 16px;
-  margin-right: 25px;
+  margin-right: 10px;
   padding-left: 18px;
   padding-top: 16px;
   padding-right: 20px;
@@ -348,6 +348,56 @@ header {
 
 .photo-section {
   flex-wrap: wrap;
-  max-width: 1231px;
+}
+
+.photo-section-item {
+  margin-left: -23px;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-section-item span {
+  font-size: 18px;
+  margin-left: 25px;
+  width: 289px;
+}
+
+.photo-section-img {
+  width: 304px;
+  height: 210px;
+}
+
+.section-load-more {
+  background-color: #f2f2f2;
+  /* width: 289px;
+  height: 56px; */
+  padding-left: 105px;
+  padding-top: 16px;
+  padding-right: 108px;
+  padding-bottom: 19px;
+  margin-left: 38%;
+  border-radius: 12px;
+}
+
+.section-load-more span {
+  color: #222222;
+  font-size: 16px;
+}
+
+.margin-load-more {
+  margin-top: 70px;
+}
+
+.lower-section {
+  background-color: #fafafa;
+  max-width: 1600px;
   width: 100%;
+}
+
+.lower-section-head h4 {
+  font-size: 32px;
+}
+
+.view-all span {
+  font-size: 14px;
 }
