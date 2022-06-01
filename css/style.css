@@ -338,6 +338,7 @@ header {
   align-items: center;
   padding-left: 24px;
   margin-top: -18px;
+  margin-right: 40px;
 }
 
 .right-nav img {
@@ -365,6 +366,11 @@ header {
 .photo-section-img {
   width: 304px;
   height: 210px;
+  margin-right: 12px;
+}
+
+.photo-section .live-streaming {
+  width: 220px;
 }
 
 .section-load-more {
@@ -390,14 +396,25 @@ header {
 
 .lower-section {
   background-color: #fafafa;
-  max-width: 1600px;
-  width: 100%;
+  background-size: auto;
+  margin-left: 20%;
+  margin-top: -250px;
+}
+
+.lower-section-head {
+  justify-content: space-between;
+  align-items: center;
 }
 
 .lower-section-head h4 {
   font-size: 32px;
+  color: #222222;
+  margin-left: 175px;
 }
 
 .view-all span {
   font-size: 14px;
+  margin-right: 195px;
+  color: #222222;
+  opacity: 30%;
 }
