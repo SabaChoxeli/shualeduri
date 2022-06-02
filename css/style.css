@@ -24,6 +24,11 @@ ol {
   display: flex;
 }
 
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 .aside {
   width: 319px;
   height: 1150px;
@@ -417,4 +422,15 @@ header {
   margin-right: 195px;
   color: #222222;
   opacity: 30%;
+}
+
+.lower-section-body {
+  margin-left: 150px;
+  margin-top: 54px;
+}
+
+.designers-profiles {
+  width: 132px;
+  height: 132px;
+  margin-left: 25px;
 }
