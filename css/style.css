@@ -415,6 +415,7 @@ header {
   font-size: 32px;
   color: #222222;
   margin-left: 175px;
+  margin-top: 65px;
 }
 
 .view-all span {
@@ -433,4 +434,29 @@ header {
   width: 132px;
   height: 132px;
   margin-left: 25px;
+}
+
+.lower-section-body .first-span {
+  color: #222222;
+  font-size: 16px;
+  width: 70px;
+  margin-top: 15px;
+  padding-left: 60px;
+}
+
+.lower-section-body div .tran-mau {
+  width: 125px;
+}
+
+.lower-section-body div .sajon-earth {
+  margin-top: 27px;
+}
+
+.lower-section-body .second-span {
+  width: 122px;
+  color: #222222;
+  opacity: 60%;
+  font-size: 12px;
+  margin-top: 10px;
+  padding-left: 60px;
 }
