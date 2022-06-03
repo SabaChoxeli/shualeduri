@@ -20,6 +20,12 @@ ol {
   margin: 0 auto;
 }
 
+.lower-container {
+  max-width: 1505px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .d-flex {
   display: flex;
 }
@@ -68,6 +74,9 @@ ol {
   margin-bottom: 50px;
   display: flex;
   align-items: center;
+  padding-left: 30px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 .aside-item:hover {
@@ -380,8 +389,6 @@ header {
 
 .section-load-more {
   background-color: #f2f2f2;
-  /* width: 289px;
-  height: 56px; */
   padding-left: 105px;
   padding-top: 16px;
   padding-right: 108px;
@@ -401,10 +408,11 @@ header {
 
 .lower-section {
   background-color: #fafafa;
-  background-size: auto;
-  margin-left: 20%;
-  margin-top: -250px;
+  /* max-width: 1601px;
+  width: 100%; */
   height: 500px;
+  margin-left: 19.2%;
+  margin-top: -250px;
 }
 
 .lower-section-head {
@@ -432,7 +440,8 @@ header {
 }
 
 .designers-profiles {
-  width: 132px;
+  max-width: 132px;
+  width: 100%;
   height: 132px;
   margin-left: 25px;
 }
@@ -468,7 +477,8 @@ header {
 }
 
 .follow-button {
-  width: 132px;
+  max-width: 132px;
+  width: 100%;
   height: 44px;
   padding-left: 43px;
   padding-top: 12px;
@@ -527,4 +537,44 @@ footer p {
 
 .footer-desing-assets {
   margin-bottom: 36px;
+}
+
+.footer-border {
+  border-bottom: 1px solid black;
+  margin-left: 23%;
+  max-width: 1231px;
+  width: 100%;
+  opacity: 5%;
+}
+
+.lower-footer {
+  max-width: 1211px;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 23%;
+}
+
+.social-logos {
+  margin-top: 40px;
+}
+
+.social-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}
+
+.for-smart {
+  margin-top: 40px;
+  margin-right: -75px;
+}
+
+.for-smart span {
+  font-size: 16px;
+  color: #222222;
+}
+
+.for-smart p {
+  color: #222222;
+  font-size: 16px;
 }
