@@ -490,3 +490,41 @@ header {
   border-radius: 12px;
   margin-right: 25px;
 }
+
+.upper-footer {
+  margin-left: 23%;
+  margin-bottom: 72px;
+  margin-top: 69px;
+}
+
+footer h6 {
+  margin-bottom: 36px;
+  width: 100px;
+  color: #222222;
+  font-size: 16px;
+}
+
+footer p {
+  margin-bottom: 10px;
+  width: 150px;
+}
+
+.footer-list {
+  margin-right: 165px;
+}
+
+.search-designers {
+  margin-bottom: 41px;
+}
+
+.footer-brands {
+  margin-bottom: 36px;
+}
+
+.footer-places {
+  margin-bottom: 41px;
+}
+
+.footer-desing-assets {
+  margin-bottom: 36px;
+}
