@@ -1,0 +1,410 @@
+@font-face {
+  src: url(/css/fonts/Avenir\ Black.ttf);
+  font-family: avenir-black;
+}
+@font-face {
+  src: url(/css/fonts/Avenir\ Book.ttf);
+  font-family: avenir-book;
+}
+@font-face {
+  src: url(/css/fonts/Avenir\ Heavy.ttf);
+  font-family: avenir-heavy;
+}
+@font-face {
+  font-family: avenir-medium;
+  src: url(/css/fonts/Avenir\ Medium.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bottom-border {
+  border-bottom: 1px solid rgb(219, 219, 219);
+  margin-top: 30px;
+}
+
+.lower-container {
+  max-width: 1505px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.aside {
+  max-width: 319px;
+  width: 100%;
+  height: 1150px;
+  background-color: #222222;
+}
+
+.design-h2 {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.aside-header {
+  align-items: center;
+  margin-top: 42px;
+  margin-left: 30px;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.design-today {
+  max-width: 146px;
+  width: 100%;
+}
+
+.aside-navbar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 100px;
+}
+
+.aside-navbar span {
+  font-family: avenir-medium;
+}
+
+.aside-item {
+  max-width: 259px;
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+  border-radius: 12px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.aside-item:hover {
+  background-color: #ff2288;
+}
+
+.aside-navbar-logo {
+  margin-right: 15px;
+}
+
+.aside-lower {
+  margin-left: 65px;
+  margin-bottom: 100px;
+}
+
+.aside-navbar span {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.first-pic {
+  margin-top: 30px;
+}
+
+.aside-profile {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 15px;
+}
+
+.following-list span {
+  margin-top: 10px;
+  margin-left: 21px;
+  font-family: avenir-medium;
+}
+
+.aside-lower span {
+  color: #ffffff;
+}
+
+.following {
+  width: 66px;
+  height: 16px;
+  font-size: 12px;
+}
+
+.following-people {
+  align-items: center;
+}
+
+.aside-lower div span {
+  font-size: 16px;
+}
+
+.last-pic {
+  margin-bottom: 4px;
+}
+
+.load-more {
+  font-size: 14px;
+  width: 94px;
+  height: 19px;
+}
+
+.main {
+  margin-left: 25px;
+}
+
+header {
+  justify-content: space-between;
+}
+
+.searchbar {
+  max-width: 446px;
+  width: 100%;
+  height: 56px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-input {
+  background-color: #f8f8f8;
+  border: transparent;
+  padding-left: 20px;
+  resize: none;
+  outline: none;
+}
+
+.search-icon {
+  padding-right: 20px;
+}
+
+.right-header {
+  align-items: center;
+  margin-top: 30px;
+}
+
+.go-pro span {
+  color: #ff2288;
+  font-size: 14px;
+  width: 56px;
+}
+
+.mail-logo {
+  margin-left: 35px;
+}
+
+.left-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #ff2288;
+  border-radius: 50%;
+  margin-left: -9px;
+  margin-top: -14px;
+}
+
+.bell-logo {
+  margin-left: 30px;
+}
+
+.right-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #ff2288;
+  border-radius: 50%;
+  margin-left: -11px;
+  margin-top: -13px;
+}
+
+.profile-pic {
+  margin-left: 30px;
+  border: 2px solid #e7e7e7;
+  padding: 16px 16px;
+  background: transparent;
+  border-radius: 28px;
+}
+
+.upload {
+  margin-left: 30px;
+  background-color: #ff2288;
+  font-size: 14px;
+  width: 129px;
+  height: 56px;
+  padding-left: 36px;
+  padding-top: 19px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  border-radius: 12px;
+}
+
+@media (max-width: 1024px) {
+  .aside {
+    display: none;
+  }
+  .main {
+    margin: 0 auto;
+  }
+  .lower-section {
+    display: none;
+  }
+}
+
+.table {
+  margin-top: 69px;
+  max-width: 1230px;
+  width: 100%;
+}
+
+table {
+  /* border-collapse: collapse; */
+  width: 100%;
+}
+
+tr {
+  cursor: default;
+}
+
+th {
+  font-size: 18px;
+}
+
+th,
+td {
+  padding: 25px;
+  text-align: left;
+  border-bottom: 2px solid #e7e7e7;
+  border-radius: 2px;
+  font-family: avenir-heavy;
+}
+
+td {
+  opacity: 60%;
+  font-size: 16px;
+}
+
+tr:hover {
+  color: #ff2288;
+}
+
+tr:focus {
+  background-color: #f2f2f2;
+  border-radius: 12px;
+}
+
+footer {
+  margin-top: 69px;
+}
+
+.footer-container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.upper-footer {
+  margin-left: 23%;
+  margin-bottom: 72px;
+}
+
+footer h6 {
+  margin-bottom: 36px;
+  width: 100px;
+  color: #222222;
+  font-size: 16px;
+}
+
+footer p {
+  margin-bottom: 10px;
+  max-width: 150px;
+  width: 100%;
+}
+
+.footer-list {
+  margin-right: 165px;
+}
+
+.search-designers {
+  margin-bottom: 41px;
+}
+
+.footer-brands {
+  margin-bottom: 36px;
+}
+
+.footer-places {
+  margin-bottom: 41px;
+}
+
+.footer-desing-assets {
+  margin-bottom: 36px;
+}
+
+.footer-border {
+  border-bottom: 1px solid black;
+  margin-left: 23%;
+  max-width: 1231px;
+  width: 100%;
+  opacity: 5%;
+}
+
+.lower-footer {
+  max-width: 1211px;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 23%;
+}
+
+.social-logos {
+  margin-top: 40px;
+}
+
+.social-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}
+
+.for-smart {
+  margin-top: 40px;
+}
+
+.for-smart span {
+  font-size: 16px;
+  color: #222222;
+}
+
+.for-smart p {
+  color: #222222;
+  font-size: 16px;
+}
+
+footer h6 {
+  font-family: avenir-heavy;
+}
+
+footer p {
+  font-family: avenir-medium;
+}
