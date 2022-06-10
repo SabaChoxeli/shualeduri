@@ -321,12 +321,8 @@ header {
     display: none;
   }
   header {
-    justify-content: space-between;
+    flex-direction: row-reverse;
   }
-  /* .for-designers,
-  .hire-designers {
-    display: none;
-  } */
 }
 
 .mid-section {
