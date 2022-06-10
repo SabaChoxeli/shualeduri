@@ -1,18 +1,18 @@
 @font-face {
-  src: url(/fonts/Avenir\ Black.ttf);
+  src: url(../fonts/Avenir\ Black.ttf);
   font-family: avenir-black;
 }
 @font-face {
-  src: url(/fonts/Avenir\ Book.ttf);
+  src: url(../fonts/Avenir\ Book.ttf);
   font-family: avenir-book;
 }
 @font-face {
-  src: url(/fonts/Avenir\ Heavy.ttf);
+  src: url(../fonts/Avenir\ Heavy.ttf);
   font-family: avenir-heavy;
 }
 @font-face {
   font-family: avenir-medium;
-  src: url(/fonts/Avenir\ Medium.ttf);
+  src: url(../fonts/Avenir\ Medium.ttf);
 }
 
 * {
@@ -280,6 +280,9 @@ header {
   }
   footer .footer-border {
     margin-left: 0px;
+  }
+  .mid-section nav .left-nav {
+    display: none;
   }
 }
 
