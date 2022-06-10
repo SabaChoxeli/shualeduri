@@ -284,11 +284,14 @@ header {
   .mid-section nav .left-nav {
     display: none;
   }
+  .mid-section nav {
+    flex-direction: row-reverse;
+  }
 }
 
 @media (max-width: 768px) {
-  .mid-section .photo-section {
-    margin: 0 auto;
+  .photo-section {
+    margin-left: 35%;
   }
   footer .upper-footer {
     margin-left: 0px;
@@ -302,6 +305,9 @@ header {
   .directories {
     display: none;
   }
+  .go-pro {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
@@ -311,6 +317,16 @@ header {
   nav .left-nav {
     display: none;
   }
+  .searchbar {
+    display: none;
+  }
+  header {
+    justify-content: space-between;
+  }
+  /* .for-designers,
+  .hire-designers {
+    display: none;
+  } */
 }
 
 .mid-section {
