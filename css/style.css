@@ -293,15 +293,6 @@ header {
   .photo-section {
     margin-left: 35%;
   }
-  footer .upper-footer {
-    margin-left: 0px;
-  }
-  footer .lower-footer {
-    margin-left: 0px;
-  }
-  footer .footer-border {
-    margin-left: 0px;
-  }
   .directories {
     display: none;
   }
@@ -311,9 +302,6 @@ header {
 }
 
 @media (max-width: 480px) {
-  .go-pro {
-    display: none;
-  }
   nav .left-nav {
     display: none;
   }
@@ -322,6 +310,9 @@ header {
   }
   header {
     flex-direction: row-reverse;
+  }
+  footer .for-designers {
+    display: none;
   }
 }
 

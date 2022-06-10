@@ -267,7 +267,42 @@ header {
   .main {
     margin: 0 auto;
   }
-  .lower-section {
+  footer .directories {
+    display: none;
+  }
+  footer .upper-footer {
+    margin-left: 0px;
+  }
+  footer .lower-footer {
+    margin-left: 0px;
+  }
+  footer .footer-border {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .photo-section {
+    margin-left: 35%;
+  }
+  .directories {
+    display: none;
+  }
+  .go-pro {
+    display: none;
+  }
+  footer .for-designers {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .searchbar {
+    display: none;
+  }
+  header {
+    flex-direction: row-reverse;
+  }
+  footer .for-designers {
     display: none;
   }
 }
